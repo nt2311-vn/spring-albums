@@ -8,5 +8,5 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @FeignClient(name = "football", url = "http://localhost:8080")
 public interface FootballClient {
   @RequestMapping(method = RequestMethod.GET, value = "/players")
-  List<Player> getPlayer();
+  List<Player> getPlayers();
 }
