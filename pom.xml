@@ -40,11 +40,10 @@
       <artifactId>spring-cloud-starter-openfeign</artifactId>
     </dependency>
     <dependency>
-      <groupId>com.github.tomakehurst</groupId>
-      <artifactId>wiremock</artifactId>
-      <version>3.0.1</version>
-      <type>pom</type>
-      <scope>test</scope>
+      <groupId>com.github.tomakehurst</groupId>
+      <artifactId>wiremock-standalone</artifactId>
+      <version>3.0.1</version>
+      <scope>test</scope>
     </dependency>
 
 		<dependency>
